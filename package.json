@@ -1,0 +1,22 @@
+{
+  "name": "houseloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup": "^3.24.0"
+  },
+  "dependencies": {
+    "camera-controls": "^2.4.1",
+    "three": "^0.153.0"
+  }
+}
